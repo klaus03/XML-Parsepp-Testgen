@@ -1,0 +1,42 @@
+{
+   "abstract" : "Generate testcases for XML::Parsepp",
+   "author" : [
+      "Klaus Eichner <klaus03@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "XML-Parsepp-Testgen",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Test::LongString" : "0.15",
+            "XML::Parser" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "XML::Parsepp::Testgen" : {
+         "file" : "lib/XML/Parsepp/Testgen.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.01"
+}
