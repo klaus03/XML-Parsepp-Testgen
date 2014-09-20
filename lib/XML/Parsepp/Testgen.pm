@@ -11,7 +11,7 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw();
 our @EXPORT_OK = qw(xml_2_test test_2_xml);
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 
 my $template;
 
